@@ -1,0 +1,17 @@
+name: my_dashboard
+channels:
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - dtreeviz
+  - matplotlib
+  - pandas
+  - pip
+  - plotly
+  - python
+  - python-graphviz
+  - scikit-learn
+  - seaborn
+  - streamlit
+  - anaconda::ipykernel
+prefix: /home/ola/miniconda3/envs/my_dashboard
