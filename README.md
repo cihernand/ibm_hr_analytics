@@ -49,4 +49,34 @@ During class we will do the following tasks:
 Admissions: Data from Berkeley. Science, 187(4175), 398–404. 
 
 
+# Lecture Learning Content
+
+- Class Motivation
+- Challenge: Inclusion and diversity with a gender perspective at the workplace
+
+- Example of research made with a public  dataset: 
+IBM HR Analytics Employee Attrition & Performance dataset, available on Kaggle.
+This dataset records for over 1,400 employees, including features such as age, gender, department, job role, job satisfaction, gender and target column that is attrition.
+
+    * What is Attrition?
+    Attrition indicates whether an employee left the company. Some Attrition reasons include: resignations, retirements,  relocations and contract  termination.
+
+    *  What type of data analysis can be performed? 
+Supervised Classification Machine Learning with Decision Tree and Random Forest
+
+    * What are the Model Objectives?
+Predict whether Attrition happens, if an employee will leave or not? 
+What are the most relevant reasons for which Attrition happens?
+
+    * What is a Tree?
+It is a collection of features from a dataset.
+
+    *  What is a Decision Tree?
+
+A Decision Tree is a game of  questions to play “Adivinanzas” . It consists of a ordered list of questions. Questions are ordered from the most important to the less important question. Each question narrows down the possibilities until the answer is reached.
+
+Example: "Is it an animal?"  "Is it a mammal?" and so on.
+
+    *   How decision are taken?
+Voting for the majority class 
 
