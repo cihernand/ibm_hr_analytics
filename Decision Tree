@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="OverTime_Flag <= 0.5\nentropy = 0.654\nsamples = 1176\nvalue = [978, 198]\nclass = AttritionNo", fillcolor="#ea9b61"] ;
+1 [label="TotalWorkingYears <= 2.5\nentropy = 0.474\nsamples = 837\nvalue = [752, 85]\nclass = AttritionNo", fillcolor="#e88f4f"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="JobInvolvement <= 1.5\nentropy = 0.914\nsamples = 76\nvalue = [51, 25]\nclass = AttritionNo", fillcolor="#f2bf9a"] ;
+1 -> 2 ;
+3 [label="entropy = 0.0\nsamples = 4\nvalue = [0, 4]\nclass = AttritionYes", fillcolor="#399de5"] ;
+2 -> 3 ;
+4 [label="entropy = 0.871\nsamples = 72\nvalue = [51, 21]\nclass = AttritionNo", fillcolor="#f0b58b"] ;
+2 -> 4 ;
+5 [label="StockOptionLevel <= 0.5\nentropy = 0.398\nsamples = 761\nvalue = [701, 60]\nclass = AttritionNo", fillcolor="#e78c4a"] ;
+1 -> 5 ;
+6 [label="entropy = 0.554\nsamples = 295\nvalue = [257, 38]\nclass = AttritionNo", fillcolor="#e99456"] ;
+5 -> 6 ;
+7 [label="entropy = 0.274\nsamples = 466\nvalue = [444, 22]\nclass = AttritionNo", fillcolor="#e68743"] ;
+5 -> 7 ;
+8 [label="MonthlyIncome <= 2475.0\nentropy = 0.918\nsamples = 339\nvalue = [226, 113]\nclass = AttritionNo", fillcolor="#f2c09c"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="DailyRate <= 486.0\nentropy = 0.818\nsamples = 63\nvalue = [16, 47]\nclass = AttritionYes", fillcolor="#7cbeee"] ;
+8 -> 9 ;
+10 [label="entropy = 0.0\nsamples = 18\nvalue = [0, 18]\nclass = AttritionYes", fillcolor="#399de5"] ;
+9 -> 10 ;
+11 [label="entropy = 0.939\nsamples = 45\nvalue = [16.0, 29.0]\nclass = AttritionYes", fillcolor="#a6d3f3"] ;
+9 -> 11 ;
+12 [label="MaritalStatus_Single <= 0.5\nentropy = 0.794\nsamples = 276\nvalue = [210, 66]\nclass = AttritionNo", fillcolor="#eda977"] ;
+8 -> 12 ;
+13 [label="entropy = 0.626\nsamples = 198\nvalue = [167, 31]\nclass = AttritionNo", fillcolor="#ea985e"] ;
+12 -> 13 ;
+14 [label="entropy = 0.992\nsamples = 78\nvalue = [43, 35]\nclass = AttritionNo", fillcolor="#fae8da"] ;
+12 -> 14 ;
+}
